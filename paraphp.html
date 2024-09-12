@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PARQUEADERO</title>
+</head>
+<body>
+    <h1>SISTEMA</h1>
+    <h2>Ingresos</h2>
+    <form action="indes.php" method="post">
+        <label for="estado">Ingrese estado: </label>
+        <input type="text" name="estado" id="estado">
+        <br><br>
+        <label for="placa">Ingrese placa: </label>
+        <input type="text" name="placa" id="placa">
+        <br><br>
+        <label for="marca">Ingrese marca: </label>
+        <input type="text" name="marca" id="marca">
+        <br><br>
+        <label for="color">Ingrese color: </label>
+        <input type="text" name="color" id="color">
+        <br><br>
+        <label for="cliente">Ingrese nombre: </label>
+        <input type="text" name="cliente" id="cliente">
+        <br><br>
+        <label for="documento">Ingrese ID: </label>
+        <input type="number" name="documento" id="documento">
+        <br><br>
+        <label for="horaIng">Ingrese hora de ingreso: </label>
+        <input type="number" name="horaIng"id="horaIng">
+        <br><br>
+        <button>Enviar</button>
+        <?php
+        $hola = readline("Hola: ");
+        echo $hola;
+        ?>
+    </form>
+</body>
+</html>
